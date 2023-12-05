@@ -1,0 +1,11 @@
+
+.boxToDo{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(64, 180, 126);
+    border: 1px solid #da5e5e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,43 @@
+.list{
+  border: 1;
+  display: flex;
+}
+
+.left-item, .center-item, .right-item {
+
+    padding: 1%;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .left-item {
+    text-align: cebter;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    border: 1px solid #424141;
+    margin-top:3.8% ;
+    background-color: aliceblue;
+
+  }
+
+  .center-item {
+    text-align: left;
+    width: 75%;
+    padding-top: 1%;
+    background-color: aliceblue;
+  }
+
+  .right-item {
+    text-align: center;
+    width: 10%;
+    height: 32px;
+    margin-top: 3.5%;
+  }
+
+  .center-item-checked {
+    text-decoration: line-through;
+  }
